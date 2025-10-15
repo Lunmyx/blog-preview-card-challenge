@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Figtree";
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+.main-container{
+    background-color: hsl(0, 0%, 100%);
+    padding: 5rem;
+    width: 15rem;
+    height: auto;
+    margin: auto;
+    border-radius: 1rem;
+    box-shadow: 10px 10px;
+    font-family: "Figtree";
+}
+.background{
+    background-color: hsl(47, 88%, 63%);
+    /* display: flex; */
+}
+.thumbnail{
+    margin-left: -2.7rem;
+    margin-top: -2rem;
+}
+.attribution{
+    margin-top: 1rem;
+}
+.category{
+    background-color: hsl(47, 88%, 63%);
+    width: 5rem;
+    /* padding: 0rem; */
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1.5rem;
+    display: flex;
+    font-weight: bolder;
+    margin-left: -2.7rem;
+}
+.date {
+    margin-left: -2rem;
+}
+.description{
+    display: flex;
+    color: hsl(0, 0%, 42%);
+    flex-wrap: wrap;
+    width: 20rem;
+    margin-left: -2rem;
+}
+.description h2{
+    color: black;
+}
+.author{
+    margin-top: 2rem;
+    margin-left: -2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-bottom: -2rem;
+}
+.pfp-card{
+    width: 2rem;
+}
+.name{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}

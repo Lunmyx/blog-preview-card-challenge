@@ -90,7 +90,15 @@
     transition: 0.8s color;
     color: hsl(47, 88%, 63%);
 }
-
+.hidden {
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    clip: rect(0,0,0,0);
+    position: absolute;
+    overflow: hidden;
+}
 @media (min-width: 768px){
     .main-container{
         width: 50%;
